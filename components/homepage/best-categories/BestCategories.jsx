@@ -68,7 +68,7 @@ const BestCategories = () => {
           <Box borderRadius={5} bgcolor={"#f1f1f1"} py={5}>
             <Container>
               <Typography variant="h5" mb={3} textAlign={"center"}>
-                Get Free Courses ! Book Your Seat Now.
+                Book Your Seat Now.
               </Typography>
               <Box display={"flex"} justifyContent={"center"}>
                 <PrimaryButton>Book Now</PrimaryButton>

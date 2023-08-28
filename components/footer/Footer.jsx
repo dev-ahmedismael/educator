@@ -11,12 +11,6 @@ import MessageIcon from "@mui/icons-material/Message";
 
 const Footer = () => {
   const contactInfo = [
-    {
-      id: 1,
-      icon: <MyLocationIcon />,
-      description:
-        "198 West 21th Street, Denver-Exeter Avenue, Algonquin, Liberty City.",
-    },
     { id: 2, icon: <PhoneEnabledIcon />, description: "+20 (123) 456 - 7891" },
     { id: 3, icon: <MailIcon />, description: "contact@educator.com" },
   ];
@@ -94,9 +88,9 @@ const Footer = () => {
               <Typography variant="h6" color={"white"} mb={5}>
                 SERVICES
               </Typography>
-              <Typography mb={2}>Cooked</Typography>
-              <Typography mb={2}>Deliver</Typography>
-              <Typography mb={2}>Quality Foods</Typography>
+              <Typography mb={2}>Courses</Typography>
+              <Typography mb={2}>Pricing</Typography>
+              <Typography mb={2}>Blog</Typography>
               <Typography>Mixed</Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
